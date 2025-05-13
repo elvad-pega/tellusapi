@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Incident {
 
-    private static final String API_URL = "https://clmkyc-labs.pegatsdemo.com/prweb/app/tell-us-more-refrence/api/application/v2";    
+    private static final String API_URL = "/prweb/app/tell-us-more-refrence/api/application/v2";    
     private String assignmentURL;    
     private Response response;    
 
