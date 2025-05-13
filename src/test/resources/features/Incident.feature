@@ -2,7 +2,7 @@ Feature: Create new incident
 
   Scenario: Obtain access token using client credentials
     Given the OAuth2 token endpoint is available
-    When I request an access token with client_id "57151108413866056153" and client_secret "46B84DB48191256AC3A73C710D1872B3"
+    When I request an access token with client_id "xxx" and client_secret "xxx"
     Then I should receive an access token in the response
 
   Scenario: Create a new incident case
