@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.*;
 
 public class OAuth2Steps {
 
-    private static final String TOKEN_URL = "https://clmkyc-labs.pegatsdemo.com/prweb/PRRestService/oauth2/v1/token"; // Replace with actual token URL
+    private static final String TOKEN_URL = "/prweb/PRRestService/oauth2/v1/token"; // Replace with actual token URL
     private Response response;
 
     @Given("the OAuth2 token endpoint is available")
